@@ -1,0 +1,42 @@
+<!-- General configuration -->
+      <!-- Subprocess can be "ALL", "BH" or "DVCS" -->
+      <general_configuration>
+         <param name="number_of_events" value="1000000" />
+     <param name="subprocess_type" value="ALL" />
+         <param name="histogram_file_path" value="hists.root" />
+      </general_configuration>
+
+      <!-- Kinematic limits -->
+      <!-- Limit on 'y' is optional, if not set 0 < y < 1 is assumed -->
+      <kinematic_range>
+         <param name="range_xB" value="0.00001|0.7" />
+         <param name="range_t" value="-1.6|-0." />
+         <param name="range_Q2" value="1.0|100.0" />
+         <param name="range_phi" value="0.03|6.253185" />
+         <param name="range_phiS" value="0.|2*pi" />
+         <param name="range_y" value="0.01|0.9" />
+      </kinematic_range>
+
+      <!-- Experimental conditions -->
+      <experimental_conditions>
+         <param name="lepton_energy" value="10.0" />
+         <param name="lepton_type" value="e-" />
+         <param name="lepton_helicity" value="-1" />
+         <param name="hadron_energy" value="130.0" />
+         <param name="hadron_type" value="p" />
+         <param name="hadron_polarisation" value="0.|0.|0." />
+      </experimental_conditions>
+
+
+
+W weight_default
+T EPIC\|1.1.6\|2017-07-18 | Select specific GPD types
+A generated_events_number 1000000
+A generation_date Tue May  6 05:16:02 2025\|
+A hadron_polarisation 0|0|0
+A integrated_cross_section_uncertainty 0.00125164279519199
+A integrated_cross_section_value 2.14440322776344
+A lepton_polarisation -1
+A service_name DVCSGeneratorService
+A suprocesses_type ALL
+
