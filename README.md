@@ -9,7 +9,7 @@ Only 10x130 GeV sample has been produced this way - others will follow.
 
 ## Feb 3rd 2026 
 
-New `.xml` files added from EpIC (DVCS + Bethe-Heitler + interference) runs in October 2025, intended for the ePIC simulation campaign run 26.02.0. 
+New `.xml` files added from EpIC (DVCS + Bethe-Heitler + interference), version 1.1.6-1.2, runs in October 2025, intended for the ePIC simulation campaign run 26.02.0. 
 
 The `.hepmc` output files from the EpIC generator have then been passed through the [ePIC afterburner](https://github.com/eic/afterburner), adding a crossing angle and beam smearing; the output from which has been stored on the ePIC XRootD server, under `/volatile/eic/sjdkay/DVCS_Files_04_02_26/raw_sim`. Following this, output files have been passed through a `.hepmc3` to `.root` converter ready for use in the ePIC simulation campaign, and are stored under `/volatile/eic/sjdkay/DVCS_Files_04_02_26/DVCS/`, sorted by beam energy.
 
