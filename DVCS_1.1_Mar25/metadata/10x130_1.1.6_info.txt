@@ -1,5 +1,3 @@
---- HELICITY MINUS ---
-
 <!-- General configuration -->
       <!-- Subprocess can be "ALL", "BH" or "DVCS" -->
       <general_configuration>
@@ -41,3 +39,4 @@ A integrated_cross_section_value 2.14440322776344
 A lepton_polarisation -1
 A service_name DVCSGeneratorService
 A suprocesses_type ALL
+
